@@ -1,11 +1,21 @@
 RRR Features:
-    Movement:
-        8 directional
-    Shooting:
-        to mouse location
+    Input/Controls section
+        Movement:
+            8 directional speed
+            directional sprites
+            wasd movement
+        Mouse cursor:
+            changes between gun reticle and cursor depending on wether the mouse is over enemy
+            
     Enemies:
         base class with changeable parameters
-    Weapon class:
-        contains base parameters for in game weapons
-            
+    Weapon classes:
+        Gun class:
+            gun type weapon representation
+            shooting rate
+            damage
+            ammo count
+            name
+            - sprite img link
+        
     

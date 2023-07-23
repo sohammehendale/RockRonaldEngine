@@ -1,0 +1,8 @@
+RRR Features:
+    Movement:
+        8 directional
+    Shooting:
+        to mouse location
+    Enemies:
+        base class with changeable parameters
+        

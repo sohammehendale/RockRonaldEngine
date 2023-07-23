@@ -5,4 +5,7 @@ RRR Features:
         to mouse location
     Enemies:
         base class with changeable parameters
-        
+    Weapon class:
+        contains base parameters for in game weapons
+            
+    

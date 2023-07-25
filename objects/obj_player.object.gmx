@@ -7,7 +7,74 @@
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
-  <events/>
+  <events>
+    <event eventtype="3" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>w = keyboard_check(ord("W"));
+a = keyboard_check(ord("A"));
+s = keyboard_check(ord("S"));
+d = keyboard_check(ord("D"));
+
+move_speed = 5;
+
+if(w &amp;&amp; !a &amp;&amp; !s &amp;&amp; !d){
+    y -= move_speed;
+}
+
+if(w &amp;&amp; a){
+    y -= move_speed/2;
+    x -= move_speed/2;
+}
+
+if(w &amp;&amp; d){
+    y -= move_speed/2;
+    x += move_speed/2;
+}
+
+if(a &amp;&amp; !w &amp;&amp; !s &amp;&amp; !d){
+    x -= move_speed;
+}
+
+if(a &amp;&amp; s){
+    y += move_speed/2;
+    x -= move_speed/2;
+}
+
+if(s &amp;&amp; !a &amp;&amp; !d &amp;&amp; !w){
+    y += move_speed;
+}
+
+if(s &amp;&amp; d){
+    y += move_speed/2;
+    x += move_speed/2;
+}
+
+if(d &amp;&amp; !a &amp;&amp; !w &amp;&amp; !s){
+    x += move_speed;
+}
+
+
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+  </events>
   <PhysicsObject>0</PhysicsObject>
   <PhysicsObjectSensor>0</PhysicsObjectSensor>
   <PhysicsObjectShape>0</PhysicsObjectShape>
